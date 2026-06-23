@@ -1,0 +1,27 @@
+{
+  "name": "premium-business-template",
+  "version": "1.0.0",
+  "description": "A premium, responsive, SEO-ready business website template for service brands and local businesses.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo Static site ready. Upload the project root or deploy with your hosting provider.",
+    "audit": "npx lighthouse http://localhost:3000 --view"
+  },
+  "keywords": [
+    "business website",
+    "landing page",
+    "seo",
+    "static site",
+    "netlify",
+    "vercel",
+    "cPanel"
+  ],
+  "author": "Premium Business Template",
+  "license": "MIT",
+  "devDependencies": {
+    "lighthouse": "^12.2.1",
+    "serve": "^14.2.4"
+  }
+}
