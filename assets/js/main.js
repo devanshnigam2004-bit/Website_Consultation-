@@ -40,11 +40,12 @@ const counterObserver = new IntersectionObserver(
       if (!entry.isIntersecting) return;
       const target = entry.target;
       const end = Number(target.dataset.counter || 0);
+      const suffix = target.dataset.suffix || "";
       const duration = 1100;
       const startTime = performance.now();
       const tick = (now) => {
         const progress = Math.min((now - startTime) / duration, 1);
-        target.textContent = Math.round(end * progress).toString();
+        target.textContent = Math.round(end * progress).toString() + suffix;
         if (progress < 1) requestAnimationFrame(tick);
       };
       requestAnimationFrame(tick);
