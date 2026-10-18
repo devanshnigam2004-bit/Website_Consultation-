@@ -6,7 +6,7 @@ A complete static website template for restaurants, salons, gyms, real estate ag
 
 - Mobile-first responsive layout
 - Sticky navigation, animated hero, scroll reveals, counters, hover states, and loading animation
-- Hero, about, services, workflow, portfolio, testimonials, pricing, team, FAQ, contact, newsletter, and footer sections
+- Hero, about, services, workflow, portfolio, testimonials, pricing, FAQ, contact, newsletter, and footer sections
 - WhatsApp, phone, email, Google Forms consultation link, and newsletter conversion paths
 - Semantic HTML, Open Graph, Twitter cards, schema markup, sitemap, robots.txt, accessibility-minded UI, and lazy-friendly assets
 - Netlify, Vercel, GitHub Pages, Hostinger, and cPanel-ready files
@@ -15,7 +15,7 @@ A complete static website template for restaurants, salons, gyms, real estate ag
 
 1. Replace `Devansh Nigam` in `index.html` with the client brand when adapting this template for another client.
 2. Update `https://example.com/` in `index.html`, `robots.txt`, and `sitemap.xml`.
-3. Replace phone, email, WhatsApp number, address, pricing, services, testimonials, and team details.
+3. Replace phone, email, WhatsApp number, address, pricing, services and testimonials.
 4. Swap colors in `assets/css/styles.css` under `:root`.
 5. Replace `assets/img/premium-showcase.svg` with client photography or a custom visual when available.
 6. The consultation button links to Google Forms in `index.html`. If you create a new Google Form later, replace the Google Forms URL.

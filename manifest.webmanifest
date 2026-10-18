@@ -1,16 +1,14 @@
 {
-  "name": "Devansh Nigam",
-  "short_name": "Devansh",
+  "name": "Webora",
+  "short_name": "Webora",
   "description": "Premium business website template.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "background_color": "#0a0a14",
+  "theme_color": "#0a0a14",
   "icons": [
-    {
-      "src": "assets/img/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
